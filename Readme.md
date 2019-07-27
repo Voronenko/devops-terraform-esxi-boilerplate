@@ -191,11 +191,3 @@ vim-cmd vmsvc/getallvms 2>/dev/null | sort -n | grep "[0-9] *" | awk '{print $1 
 
 ```
 
-2019-07-27T11:18:38.563+0200 [DEBUG] plugin.terraform-provider-esxi: pid-1877-esxi_remote_cmds.go:57: [runRemoteSshCommand] :Get list of disk stores
-2019-07-27T11:18:38.997+0200 [DEBUG] plugin.terraform-provider-esxi: pid-1877-esxi_remote_cmds.go:67: [runRemoteSshCommand] cmd:/esxcli storage filesystem list | grep '/vmfs/volumes/.*[VMFS|NFS]' | awk '{print $2}'/
-
-
-2019-07-27T11:18:38.997+0200 [DEBUG] plugin.terraform-provider-esxi: pid-1877-esxi_remote_cmds.go:57: [runRemoteSshCommand] :get vmid
-2019-07-27T11:18:39.315+0200 [DEBUG] plugin.terraform-provider-esxi: pid-1877-esxi_remote_cmds.go:67: [runRemoteSshCommand] cmd:/vim-cmd vmsvc/getallvms 2>/dev/null | sort -n | grep "[0-9] * vmtest .*vmtest" | awk '{print $1}' | tail -1/
-
-
