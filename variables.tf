@@ -31,11 +31,12 @@ variable "disk_store" {
 # Application specific variables
 
 variable "vm_clone_from" {
-  default = "templateU18S"
+  default = "templateU18D"
 }
 
 variable "vm_ovf_local_path" {
   default = "/home/slavko/personal/ESXI/templateU18S/templateU18S.ovf"
+#  default = "/home/slavko/personal/ESXI/templateU18D/templateU18D.ovf"
 }
 
 variable "vm_hostname" {
